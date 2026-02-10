@@ -1,4 +1,4 @@
-# Bank Account Opening Fraud Detection using Logistic Regression and XGBoost
+# Application Fraud: Bank Account Opening Fraud Detection using Logistic Regression and XGBoost
 
 **Date**: 9 February 2026 \
 **Author**: Li Zhaozhi (李兆智)
