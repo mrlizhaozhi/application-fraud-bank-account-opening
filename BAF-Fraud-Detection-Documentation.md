@@ -18,7 +18,7 @@ SR 11-7 is a set of standards and guidelines developed by the Securities and Exc
 
 - **Scope**: Applies to all institutions supervised by the Federal Reserve or OCC, including national and state banks. 
 
-## This documentation is consisted of the following componenets:
+## Table of Contents
 
 1. Model Identification and Purpose
 
