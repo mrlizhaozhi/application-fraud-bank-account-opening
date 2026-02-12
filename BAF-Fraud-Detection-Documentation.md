@@ -1,14 +1,14 @@
 # BAF-Fraud-Detection-Documentation
 
-[Download the Document (PDF)](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.docx)
+[Download the Document (PDF)](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.pdf)
 
 ## Overview
 
-Model Risk Management (MRM) is a critical aspect of any financial institution, especially those dealing with fraud detection. The Banking Anti-Fraud (BAF) Fraud Detection project aims to develop and implement an advanced machine learning model that can accurately identify fraudulent transactions in real time. This documentation aims to meet SR 11-7 standards.
+Model Risk Management (MRM) is a critical aspect of any financial institution, especially those dealing with fraud detection. Bank Account Fraud (BAF) Detection aims to develop and implement a mix of models that identify fraudulent bank accounts. This documentation aims to meet Supervisory Letter SR 11-7 standards.
 
 ## Supervisory Letter SR 11-7
 
-SR 11-7 is a set of standards and guidelines developed by the Securities and Exchange Commission (SEC) to ensure that financial institutions have robust systems in place for detecting, preventing, and responding to fraud. The BAF Fraud Detection project aims to comply with these standards by developing an advanced machine learning model that can be deployed in production. Essential components of SR 11-7 include:
+SR 11-7 is a set of standards and guidelines developed by the United States Securities and Exchange Commission (SEC) to ensure that financial institutions have robust systems in place for detecting, preventing, and responding to fraud. Essential components of SR 11-7 include:
 
 - **Definition of a Model**: Any quantitative method, system, or approach using statistical or economic theories to process data into estimates.
 
