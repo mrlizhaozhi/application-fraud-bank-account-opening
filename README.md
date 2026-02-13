@@ -1,13 +1,13 @@
-# Application Fraud: Bank Account Opening Fraud Detection using Logistic Regression and XGBoost
+# Bank Account Fraud Detection
 
 **Date**: 9 February 2026 \
 **Author**: Li Zhaozhi (李兆智)
 
 ---
 
-**Background**: Fraud is a type of financial crime risk that poses threats to customers and banks. There're multiple typologies within fraud such as authorised and unauthorised digital, payment, credit card, application, scams, and lending fraud, etc. Financial institutions deploy data science capabilities in banking data to analyse fraud patterns, detect, and mitigate fraud risks.
+**Background**: Fraud is a type of financial crime risk that poses threats to customers and banks. There're multiple typologies within fraud such as authorised and unauthorised digital, payment, credit card, application fraud, and scams, etc. Financial institutions deploy data science capabilities to analyse fraud patterns, detect, and mitigate fraud risk. Banking data include transaction data, customer profile data, credit data, behavioural data, and device metadata, etc.
 
-**Application Fraud, Bank Account Opening**: refers to the deliberate submission of false, forged, or stolen information during the account opening process with the intent to:
+**Application Fraud**: in the form of bank account opening refers to the deliberate submission of false, forged, or stolen information during the account opening process with the intent to:
 
 - Obtain financial products/services under false pretenses
 - Facilitate money laundering or other financial crimes
@@ -16,7 +16,7 @@
 
 (Reference: Association of Certified Anti-Money Laundering Specialists (ACAMS))
 
-**Objective**: This solution aims to discern patterns and detect application fraud in the form of bank account opening by applying statistical analysis, data visualisation, hypothesis testing, and machine learning techniques (Logistic Regression and XGBoost) to analyse and model bank account data. This covers the entire (iterative) life cycle from exploratory data analysis (EDA), data cleaning, hypothesis testing, feature engineering, modelling to model evaluation.
+**Objective**: This solution discerns patterns and detects application fraud in the form of bank account opening by applying statistical analysis, data visualisation, hypothesis testing, and machine learning techniques to analyse and model bank account data whilst meeting the challenges stated below.
 
 **Challenges**: Financial institutions face the following challenges in fraud detection:
 
@@ -24,14 +24,22 @@
 - *False negative*: Failure to detect fraudulent customers/transactions leading to financial loss and reputational damage, sometimes regulatory fines.
 - *Class imblance*: Fraud data is typically imbalanced which requires processing before modelling.
 
-**Methodologies**: To answer the above research questions, *Logistic Regression* and *XGBoost* are appropriate. In a regulated environment like banking, explainability is critical from model governance perspective. 
+**Methodologies**: Model governance prioritises explainability in highly regulated industries such as financial services. This solution uses Logistic Regression and XGBoost to achieve the above objective. Details of model selection are available in this notebook under the *Model Selection* section.
 
-- *Logistic Regression* is a surpervised learning method that is highly transparent. This dataset has a binary label column `fraud_bool` with large quantities of numerical and categorical variables available for featuring engineering. Logistic regression is an appropriate method for predicting fraud.
-- *XGBoost*: 
+
+**Table of Contents**:
+
+- [BFA-Fraud-Detection-Models](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Model.ipynb): Complete Python code for model development.
+- [BFA-Fraud-Detection-Documentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.md): Model Risk Management and Model Governance documentation to meet regulatory reporting requirements.
+- [BFA-Fraud-Detection-Dashboard](https://public.tableau.com/app/profile/lizhaozhi/viz/BAF-Fraud-Detection-Dashboard/Sheet1): Interactive dashboards and visual stories to present analytical findings from the dataset.
+- [BFA-Fraud-Detection-Presentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Presentation.pptx): Present analytical findings and the modelling process.
+
+**Tags: Fraud Detection, Descriptive Statistics, Data Visualisation, Chi-Square Hypothesis Testing, Logistic Regression, XGBoost**
+
 
 ---
 
-**Data Sets**: Feedzai is an AI-powered platform that uses machine learning to detect fraud. Feedzai Research released anonymised [data sets](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data) at NeurIPS 2022 resembling challenges in real-world bank account opening data. These data sets are available in downloadable CSV format. In real world, data is typically stored on a cloud platform and retrieved with SQL queries.
+**Data Sets**: [Feedzai](https://research.feedzai.com) is an AI fraud detection platform that uses machine learning to detect fraud. Feedzai Research released anonymised [Bank Account Fraud](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022/data) data sets at NeurIPS 2022. These data sets are available in downloadable CSV format. This analysis uses the `base` dataset.
 
 References:
 
@@ -73,3 +81,4 @@ Data definitions:
 |30|device_distinct_emails_8w|Number of distinct emails in banking website from the used device in last 8 weeks. Ranges between [0, 3].|Numerical|Emails|2|
 |31|device_fraud_count|Number of fraudulent applications with used device. Ranges between [0, 1].|Numerical|N/A|0|
 |32|month|Month where the application was made. Ranges between [0, 7].|Numerical|Month|2|
+
