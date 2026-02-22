@@ -29,13 +29,11 @@
 
 **Table of Contents**:
 
-- [BFA-Fraud-Detection-Models](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Model.ipynb): Complete Python code for model development.
-- [BFA-Fraud-Detection-Documentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.pdf): Model Risk Management and Model Governance documentation to meet regulatory reporting requirements.
-
-## Pending updates
-
-- [BFA-Fraud-Detection-Dashboard](https://public.tableau.com/app/profile/lizhaozhi/viz/BAF-Fraud-Detection-Dashboard/Sheet1): Interactive dashboards and visual stories to present analytical findings from the dataset.
-- [BFA-Fraud-Detection-Presentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Presentation.pdf): Present analytical findings and the modelling process.
+| Document | Purpose | Link | Last Update | Status | Remarks |
+| BFA-Fraud-Detection-Models | Complete Python code for model development.| [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Model.ipynb) | 1 | In Progress | Feature engineering completed. |
+| BFA-Fraud-Detection-Documentation | Model Risk Management and Model Governance documentation to meet regulatory reporting requirements. | [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.pdf) | 1 | In Progress | |
+| BFA-Fraud-Detection-Dashboard | Interactive dashboards and visual stories to present analytical findings from the dataset. | [Link](https://public.tableau.com/app/profile/lizhaozhi/viz/BAF-Fraud-Detection-Dashboard/Sheet) | 1 | Not started | |
+| BFA-Fraud_Detection-Presentation | Present analytical findings and the modelling process. | [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Presentation.pdf) | 1 | Not Started | |
 
 **Tags: Fraud Detection, Descriptive Statistics, Data Visualisation, Chi-Square Hypothesis Testing, Logistic Regression, XGBoost**
 
