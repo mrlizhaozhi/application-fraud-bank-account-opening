@@ -1,4 +1,4 @@
-# Bank Account Fraud Detection using Logistic Regression and XGBoost
+# Bank Account Fraud Detection
 
 **Date**: 9 February 2026 - 15 February 2026 \
 **Author**: Li Zhaozhi (李兆智)
@@ -30,7 +30,10 @@
 **Table of Contents**:
 
 - [BFA-Fraud-Detection-Models](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Model.ipynb): Complete Python code for model development.
-- [BFA-Fraud-Detection-Documentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.md): Model Risk Management and Model Governance documentation to meet regulatory reporting requirements.
+- [BFA-Fraud-Detection-Documentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.pdf): Model Risk Management and Model Governance documentation to meet regulatory reporting requirements.
+
+## Pending updates
+
 - [BFA-Fraud-Detection-Dashboard](https://public.tableau.com/app/profile/lizhaozhi/viz/BAF-Fraud-Detection-Dashboard/Sheet1): Interactive dashboards and visual stories to present analytical findings from the dataset.
 - [BFA-Fraud-Detection-Presentation](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Presentation.pdf): Present analytical findings and the modelling process.
 
