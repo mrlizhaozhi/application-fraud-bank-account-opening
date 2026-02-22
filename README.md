@@ -30,6 +30,7 @@
 **Table of Contents**:
 
 | Document | Purpose | Link | Last Update | Status | Remarks |
+|----------|---------|------|-------------|--------|---------|
 | BFA-Fraud-Detection-Models | Complete Python code for model development.| [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Model.ipynb) | 1 | In Progress | Feature engineering completed. |
 | BFA-Fraud-Detection-Documentation | Model Risk Management and Model Governance documentation to meet regulatory reporting requirements. | [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.pdf) | 1 | In Progress | |
 | BFA-Fraud-Detection-Dashboard | Interactive dashboards and visual stories to present analytical findings from the dataset. | [Link](https://public.tableau.com/app/profile/lizhaozhi/viz/BAF-Fraud-Detection-Dashboard/Sheet) | 1 | Not started | |
