@@ -5,7 +5,9 @@
 
 ---
 
-**Background**: Fraud is a type of financial crime risk that poses threats to customers and banks. There're multiple typologies within fraud such as authorised and unauthorised digital, payment, credit card, application fraud, and scams, etc. Financial institutions deploy data science capabilities to analyse fraud patterns, detect, and mitigate fraud risk. Banking data include transaction data, customer profile data, credit data, behavioural data, and device metadata, etc.
+**Background**: Fraud is a type of financial crime risk that poses threats to customers and banks. There're multiple typologies within fraud such as authorised and unauthorised digital, payment, credit card, application fraud, and scams, etc. 
+
+Financial institutions deploy data science capabilities to analyse fraud patterns, detect, and mitigate fraud risk. Banking data include transaction data, customer profile data, credit data, behavioural data, and device metadata, etc.
 
 **Application Fraud**: in the form of bank account opening refers to the deliberate submission of false, forged, or stolen information during the account opening process with the intent to:
 
@@ -16,7 +18,7 @@
 
 (Reference: Association of Certified Anti-Money Laundering Specialists (ACAMS))
 
-**Objective**: This solution discerns patterns and detects application fraud in the form of bank account opening by applying statistical analysis, data visualisation, hypothesis testing, and machine learning techniques to analyse and model bank account data whilst meeting the challenges stated below.
+**Objective**: Discern fraud patterns and detect bank account fraud by applying statistical analysis, data visualisation, hypothesis testing, and machine learning techniques.
 
 **Challenges**: Financial institutions face the following challenges in fraud detection:
 
@@ -24,7 +26,7 @@
 - *False negative*: Failure to detect fraudulent customers/transactions leading to financial loss and reputational damage, sometimes regulatory fines.
 - *Class imblance*: Fraud data is typically imbalanced which requires processing before modelling.
 
-**Methodologies**: Model governance prioritises explainability in highly regulated industries such as financial services. This solution uses Logistic Regression and XGBoost to achieve the above objective. Details of model selection are available in this notebook under the *Model Selection* section.
+**Methodologies**: Model governance prioritises explainability in highly regulated industries such as financial services. This solution uses Logistic Regression and XGBoost to achieve the above objective. 
 
 
 **Table of Contents**:
