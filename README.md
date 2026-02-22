@@ -34,6 +34,7 @@ Financial institutions deploy data science capabilities to analyse fraud pattern
 | Document | Purpose | Link | Last Update | Status | Remarks |
 |----------|---------|------|-------------|--------|---------|
 | BFA-Fraud-Detection-Models | Complete Python code for model development.| [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Model.ipynb) | 22 Feb 2026 | In Progress | Feature engineering completed. |
+| BAF-Fraud-Detection-Pipeline | Production-ready, automated data cleaning and feature engineering workflows | 22 Feb 2026 | In Progress | |
 | BFA-Fraud-Detection-Documentation | Model Risk Management and Model Governance documentation to meet regulatory reporting requirements. | [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Documentation.pdf) | 22 Feb 2026 | In Progress | |
 | BFA-Fraud-Detection-Dashboard | Interactive dashboards and visual stories to present analytical findings from the dataset. | [Link](https://public.tableau.com/app/profile/lizhaozhi/viz/BAF-Fraud-Detection-Dashboard/Sheet) | 9 Feb 2026 | Not started | |
 | BFA-Fraud_Detection-Presentation | Present analytical findings and the modelling process. | [Link](https://github.com/mrlizhaozhi/application-fraud-bank-account-opening/blob/main/BAF-Fraud-Detection-Presentation.pdf) | 9 Feb 2026 | Not Started | |
